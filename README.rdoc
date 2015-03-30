@@ -1,28 +1,14 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+目标：
+ruby版本的自动化测试
+环境：
+rspec + selenium-webdriver(已经实现)
+capybara + DatabaseCleaner(没有实现)
+运行：
+rspec spec --format html --out results.html
+open results.html
+参考：
+http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/
+https://code.google.com/p/selenium/wiki/RubyBindings
+http://seleniumhq.github.io/selenium/docs/api/rb/
+https://github.com/jnicklas/capybara/blob/master/README.md
+https://www.relishapp.com/rspec/rspec-rails/v/3-2/docs/gettingstarted
