@@ -1,14 +1,14 @@
 === 目标：===
 ruby版本的自动化测试
 === 环境：=== 
-+ rspec + selenium-webdriver(已经实现)
-+ capybara + DatabaseCleaner(没有实现)
++   rspec + selenium-webdriver(已经实现)
++   capybara + DatabaseCleaner(没有实现)
 === 运行：=== 
-+ rspec spec --format html --out results.html
-+ open results.html
++   rspec spec --format html --out results.html
++   open results.html
 === 参考：===
-+ http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/
-+ https://code.google.com/p/selenium/wiki/RubyBindings
-+ http://seleniumhq.github.io/selenium/docs/api/rb/
-+ https://github.com/jnicklas/capybara/blob/master/README.md
-+ https://www.relishapp.com/rspec/rspec-rails/v/3-2/docs/gettingstarted
++   http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/
++   https://code.google.com/p/selenium/wiki/RubyBindings
++   http://seleniumhq.github.io/selenium/docs/api/rb/
++   https://github.com/jnicklas/capybara/blob/master/README.md
++   https://www.relishapp.com/rspec/rspec-rails/v/3-2/docs/gettingstarted
